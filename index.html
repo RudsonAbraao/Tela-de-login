@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar count</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="logo">
+        <img src="./imagens/logo.png" alt="logo" class="imagem"> 
+        </section>
+        <section id="login">
+            
+                <div id="formulario">
+                    <h1>LOGIN</h1>
+                    <form action="login.php" method="post" autocomplete="on">
+                        <div class="campo">
+                            <span class="material-icons">business</span>
+                            <input type="text" name="login" id="ilogin" placeholder="cnpj da empresa" required maxlength="14">
+                            <label for="ilogin" class="none">LOGIN</label>
+                        </div>
+                        <div class="campo">
+                            <span class="material-icons">password</span>
+                            <input type="password" name="senha" id="isenha" placeholder="senha" autocomplete="current-password">
+                            <label for="campo" class="none">Senha</label>
+                        </div>
+                        <div class="btn">
+                        <button class="btn-login">ENTRAR</button>
+                        </div>
+                    </form>
+                </div>
+    
+        </section>
+    </main>
+    
+</body>
+
+</html>
