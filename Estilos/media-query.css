@@ -1,48 +1,21 @@
-@media screen and (min-width:768px) and (max-width: 992px){
+@media only screen and (min-width:768px){
+    main{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+    
+    }
+    section#logo{
+        height: 100%;
+        width: 50%;
+    }
+    section#logo > .imagem{
+        height: auto;
+        width: 50vw;
+    }
     section#login{
-        width: 90vw;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        margin: 0px 10px;
     }
-    section#login > div#imagem{
-        width: 50%;
-        height: 100%;
-    }
-    section#login > div#formulario{
-        width: 50%;
-        height: 100%;
 
-    }
-    .pai-formulario{
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-}
-@media screen and (min-width: 992px){
-    section#login{
-        width: 950px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-    section#login > div#imagem{
-        width: 50%;
-        height: 100%;
-    }
-    section#login > div#formulario{
-        width: 50%;
-        height: 100%;
-
-    }
-    .pai-formulario{
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
 }
